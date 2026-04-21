@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка | Максим Коваленко</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #121212; /* Темный фон */
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+            width: 90%;
+            max-width: 350px;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #333;
+            margin-bottom: 15px;
+            object-fit: cover;
+            border: 3px solid #007bff;
+        }
+        h1 { margin: 10px 0 5px; font-size: 24px; }
+        p { color: #aaa; margin-bottom: 25px; }
+        
+        .btn {
+            display: block;
+            background: #25d366; /* Цвет WhatsApp */
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            transition: 0.3s;
+        }
+        .btn:hover { opacity: 0.8; }
+        
+        .info-block {
+            background: #2a2a2a;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 14px;
+            text-align: left;
+        }
+        .copy-text { color: #007bff; cursor: pointer; float: right; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="profile-img" style="display: flex; align-items: center; justify-content: center;">👤</div>
+    
+    <h1>Максим Коваленко</h1>
+    <p>Специалист / Контакты</p>
+
+    <a href="https://wa.me/79054091052" class="btn">Написать в WhatsApp</a>
+
+    <div class="info-block">
+        <strong>Телефон:</strong><br>
+        +7 (905) 409-10-52
+        <br><br>
+        <strong>Реквизиты для перевода:</strong><br>
+        Т-Банк / Сбер по номеру телефона
+    </div>
+</div>
+
+</body>
+</html>
